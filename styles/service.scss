@@ -1,0 +1,64 @@
+
+.ser{
+    margin-left: 300px;
+    font-size: 14px;
+    display: inline;
+    
+    
+}
+
+.ss{
+    a:visited {
+        color:black; 
+    } 
+    
+    a:before{
+        content: "";
+        
+        position: absolute;
+        bottom: -4px;
+        height: 3px;
+        width: 0;
+        background: red;
+        border-radius: 50px;
+        transition: width 0.3s ease;
+    }
+    a:hover{color: black;}
+    a:hover:before{
+        width: 6%;  
+    }
+}
+
+.containe{
+    margin-top: 100px;
+    display: flex;
+margin-bottom: 200px;
+
+}
+.h44a{
+    margin-left: 100px;
+  
+    margin-top: 100px;
+}
+.img{
+    flex: 0 0 auto; 
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 3%;
+   margin-top: 50px;;
+   
+}
+.pi{
+    margin-right: 150px;
+    margin-top: 60px;
+   width: 600px;
+   margin-left: 50px;
+   font-size: 17px;
+  
+}
+
+
+
+
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

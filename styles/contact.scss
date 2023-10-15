@@ -1,0 +1,36 @@
+
+.conti{
+    margin-top: 200px;
+    margin-bottom: 190px;
+}
+
+
+.imag{
+    margin-left: 100px;
+}
+
+.fom{
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+.bt{
+    button{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    }
+}
+.bt-h{
+    button:hover{
+        background-color:  rgb(255, 136, 0);
+    color: white;
+    }
+}
+
+
+
+
+
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

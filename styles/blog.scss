@@ -1,0 +1,60 @@
+.a1{
+ a{
+    text-decoration: none;
+    
+ }
+ a:visited {
+    color:black; /* Change this to your desired color */
+} 
+ a:hover{
+    color: red;
+ }
+}
+.pr{
+    background-color: bisque;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.card-title{
+    padding: 10px;
+    
+}
+
+.card-subtitle{
+   padding-top: 10px;
+   padding-bottom: 20px;
+   
+}
+.cardi {
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+    background-color: #121212;
+    transition: transform 0.5s ease-in-out  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Apply styles on hover */
+  .cardi:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 3px rgb(92, 92, 92);
+    .carda{
+        color: red;
+        font-size: 23px;
+    }
+    .cardr{
+        font-size: 17px;
+    }
+   
+  }
+  
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

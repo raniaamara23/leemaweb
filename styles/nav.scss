@@ -1,0 +1,40 @@
+.cont{
+  min-width: max-content;
+  display: flex;
+  position:relative ;
+ max-height:100% ;
+ min-width: 800px;
+}
+
+$primary: #343a40;
+.custom{
+   a{
+    color:$primary ;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+   }
+  
+}
+$secondary:#f8f9fa;
+.back{
+  background-color:$secondary;
+}
+$custom-hover-color: #fd7e14;
+.custom-hover-effect {
+    a:hover {
+      color: $custom-hover-color;
+    }
+
+  }
+  
+    .custom a{
+    color:$primary ;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+   }
+   
+
+    
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
